@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LiveTickerExample</string>
+    <string name="activity_live_ticker_example_title">LiveTickerExample</string>
+
+</resources>
