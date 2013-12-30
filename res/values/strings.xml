@@ -3,5 +3,7 @@
 
     <string name="app_name">LiveTickerExample</string>
     <string name="activity_live_ticker_example_title">LiveTickerExample</string>
+    <string name="activity_live_ticker_example_button_add">Add</string>
+    <string name="activity_live_ticker_example_button_remove">Remove</string>
 
 </resources>

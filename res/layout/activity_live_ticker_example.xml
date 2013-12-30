@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#0000FF"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -12,10 +13,32 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#FF0000"
         android:text="@string/activity_live_ticker_example_title" />
 
-    <amba.livetickerexample.view.HorizontalListView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:background="#00FFFF"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/activity_live_ticker_example_button_add" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/activity_live_ticker_example_button_remove" />
+    </LinearLayout>
+
+    <amba.livetickerexample.view.HorizontalListView
+        android:id="@+id/activity_live_ticker_example_hlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FF00" />
 
 </LinearLayout>
